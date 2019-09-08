@@ -3,15 +3,6 @@ const ValidationException = require('../Exceptions/ValidationException');
 const ResourceNotFoundException = require('../Exceptions/ResourceNotFoundException');
 
 /**
- * Formats validator to the standardized structure
- * @param {Object} validator 
- * @returns {Promise}
- */
-const formatValidator = validator => {
-  //
-};
-
-/**
  * Returns all validators
  * @returns {Promise}
  */

@@ -21,6 +21,12 @@ $ ./start.sh
 $ ./stop.sh
 ```
 
+### To Test
+Please make sure to run the app first before running the integration test
+```bash
+$ ./test.sh
+```
+
 ### How-To`s
 - Access the app from http://localhost:3000
 - PostgreSQL is accessible through port *5432*
