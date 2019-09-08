@@ -1,4 +1,5 @@
 .env
 .git
+config.json
 node_modules/
 dist/

@@ -23,9 +23,8 @@ $ ./stop.sh
 
 ### How-To`s
 - Access the app from [http://localhost:3000](http://localhost:3000)
-- Access adminer from [http://localhost:8080](http://localhost:8080)
 - PostgreSQL is accessible through port *5432*
-- It opens port *3000*, *9229*, *5432* and *8080* once it is run. Hence, please make sure you don't have anything runs on those ports. However, you can change the exposed ports from *docker-compose.yml*.
+- It opens port *3000*, *9229*, and *5432* once it is run. Hence, please make sure you don't have anything runs on those ports. However, you can change the exposed ports from *docker-compose.yml*.
 
 Thank you!
 
