@@ -20,5 +20,5 @@ ADD ./src ${WORKDIR}
 
 # Expose nodejs ports
 EXPOSE 3000 9229
-# Run ci from package-lock, then run the start script
-CMD ["sh", "-c", "npm ci && ${USERDIR}/scripts/start.sh"]
+# Run the start script
+CMD ["sh", "-c", "${USERDIR}/scripts/start.sh"]
