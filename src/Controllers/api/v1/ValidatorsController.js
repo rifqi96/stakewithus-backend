@@ -6,9 +6,7 @@ exports.getAll = (req, res, next) => {
   var validatorsPromise = validatorsService.getAll();
 
   return validatorsPromise.then(data => {
-    res.send({
-      data
-    });
+    res.send(data);
   });
 };
 
@@ -17,9 +15,7 @@ exports.get = (req, res, next) => {
   var validatorPromise = validatorsService.get(address);
 
   return validatorPromise.then(data => {
-    res.send({
-      data
-    });
+    res.send(data);
   })
   .catch(e => {
     // Return the error to global error handler
@@ -41,8 +37,6 @@ exports.create = (req, res, next) => {
 
   return validatorPromise.then(data => {
     res.status(201);
-    res.send({
-      data
-    });
+    res.send(data);
   });
 };
