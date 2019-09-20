@@ -1,5 +1,6 @@
 .env
 .git
+.idea
 config.json
 node_modules/
 dist/
